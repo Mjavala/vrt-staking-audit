@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "vrt-staking-audit"
+version = "0.1.0"
+description = ""
+authors = ["k <mja>"]
+readme = "README.md"
+packages = [{include = "vrt_staking_audit"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+slither-analyzer = "^0.9.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
